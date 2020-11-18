@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fourchette", "..\..\..\Desktop\corriger\procedural\fourchette\fourchette.csproj", "{D4E28BF0-7ADB-47F3-8AF9-C460BE52AAC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exc2.5", "..\..\..\Desktop\corriger\procedural\exc2.5\exc2.5.csproj", "{288027F3-5E02-4D7A-9ACE-B8582213E94E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4E28BF0-7ADB-47F3-8AF9-C460BE52AAC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4E28BF0-7ADB-47F3-8AF9-C460BE52AAC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4E28BF0-7ADB-47F3-8AF9-C460BE52AAC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4E28BF0-7ADB-47F3-8AF9-C460BE52AAC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{288027F3-5E02-4D7A-9ACE-B8582213E94E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{288027F3-5E02-4D7A-9ACE-B8582213E94E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{288027F3-5E02-4D7A-9ACE-B8582213E94E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{288027F3-5E02-4D7A-9ACE-B8582213E94E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5DCDFBAA-B93C-489C-B694-A1098F7EFD8F}
+	EndGlobalSection
+EndGlobal
