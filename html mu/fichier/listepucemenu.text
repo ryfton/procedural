@@ -1,0 +1,65 @@
+<div id="listmenu" >
+          <ul>
+                <li> <a href="index.php" target="_self">PRESENTATION</a> 
+                  <ul>
+
+                   <li> <a href="index.php">Accueil des membres</a> </li>
+                    <li> <a href="index.php">Carte de p&ecirc;che</a> </li>
+					<li>  <a href="#">Info.tarif</a></li>
+                   <li><a href="equipe.php">Equipe</a></li>
+
+				 <li><a href="afficher_produit.php">Ventes mat&eacute;riels</a> </li>
+				 
+					  
+        <li><a href="standard.php">Contact</a> </li>
+                  </ul>
+            </li>
+                <li> <a href="#">RIVIERES ET LACS</a> 
+                  <ul>
+
+                    <li> <a href="commune.php">Communale</a></li>
+                    <li> <a href="departement.php">Departementale</a> </li>
+                    
+                  </ul>
+            </li>
+                <li> <a href="#">METHODE DE PECHE</a> 
+                  <ul>
+
+                  
+                    <li> <a href="exterieur.php">A la mouche</a>
+                    <ul>
+                    <li><a href="#">M&eacute;thode artisanale </a></li>
+                    <li><a href="#">Mouches  vivantes</a></li>
+                    </ul>
+                     </li>
+                    <li><a href="interieur.php">Au leurre</a>
+                    <ul>
+                    <li><a href="#">leurre plastique</a></li>
+                    <li><a href="#">Mort mani&eacute;</a></li>
+                    </ul>
+                    
+                     </li>
+                      <li><a href="clients.php">les cuill&egrave;res</a></li>
+                  </ul>
+            </li>
+                <li> <a href="#">LES APPATS CHOIX</a> 
+                  <ul>
+
+                    <li> <a href="protection.php">Les vifs</a></li>
+                    <li> <a href="produit.php">Type insectes</a> </li>
+                  
+                  </ul>
+            </li>
+                <li> <a href="#">METHODE
+                 SUR LAC</a> 
+                  <ul>
+
+                    <li> <a href="services.php">Services</a></li>
+                    <li> <a href="qualite.php">Qualit&eacute;</a> </li>
+				
+                  </ul>
+
+          </li>
+              </ul>
+
+        </div> 
