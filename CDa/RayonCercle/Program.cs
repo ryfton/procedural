@@ -18,25 +18,16 @@ namespace RayonCercle
             angl = (double.Parse(Console.ReadLine()));
             Console.WriteLine("l'aire du secteur circulaire est de: " +(Math.Round(AireCirculaire(rayonc,angl),2)));
             
-
-
             Console.ReadKey();
-
         }
         public static double AireCirculaire(double _ray, double _ang)
         {
             double aireCirc = (Math.PI) * Math.Pow(_ray, 2) * (_ang / 360);
             return aireCirc;
-
-
-
         }
-        
-        
+           
     
-        
-        
-
+     
     }
    
 }

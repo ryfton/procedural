@@ -12,10 +12,10 @@ namespace UnitTestRayonCercle
         {
             double rayonc = 10;
             double angl = 45;
-            double resulta = 39.269908169872;
+            double resulta = 39.269908169872416;
             double testResulta= Program.AireCirculaire(rayonc, angl);
 
-            Assert.AreEqual(resulta, angl);
+            Assert.AreEqual(resulta, testResulta);
 
         }
 
