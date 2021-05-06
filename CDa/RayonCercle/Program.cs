@@ -22,7 +22,7 @@ namespace RayonCercle
         }
         public static double AireCirculaire(double _ray, double _ang)
         {
-            double aireCirc = (Math.PI) * Math.Pow(_ray, 2) * (_ang / 360);
+            double aireCirc = Math.PI * Math.Pow(_ray, 2) * (_ang / 360);
             return aireCirc;
         }
            

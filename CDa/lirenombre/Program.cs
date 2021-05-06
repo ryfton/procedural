@@ -12,7 +12,10 @@ namespace lirenombre
             x = (double.Parse(Console.ReadLine()));                   // lecture premier nombre.
             Console.WriteLine("Veulliez entrer un deuxieme nombre"); // lecture deuxieme nombre.
             z = (double.Parse(Console.ReadLine()));
-            Console.WriteLine(Moyenne(x, z));  // appel de la méthode.
+
+            double res = Moyenne(x, z);
+
+            Console.WriteLine("la moyenne est de " +res);  // appel de la méthode.
 
             Console.ReadKey();
             
@@ -27,8 +30,7 @@ namespace lirenombre
                    
 
                 moyenne = (_a + _b) / 2;                                  //calcule de la moyenne.
-                Console.WriteLine("la moyenne est de " + moyenne);        //ecriture de la moyenne.
-                return moyenne;                                                         //retour du resultat.
+                return moyenne;                                                     
 
             }
               
