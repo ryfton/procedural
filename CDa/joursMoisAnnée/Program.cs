@@ -10,22 +10,37 @@ namespace joursMoisAnnée
     {
         static void Main(string[] args)
         {
+            //Déclaration.
             int jour,mois,année;
-         
-            double resultat4;
-            double valeurMois;
+            int resultat4;
+            int valeurMois=0;
+            int rest7;
+            string joursSemaine;
 
+            //Affichage.
             Console.WriteLine("ce programme permet de définir le jour de la semaines par raport a une date donnée entre 1900 et 1999 .\n");
-            Console.WriteLine("votre date:");
-
+            Console.WriteLine("Veulliez saisir votre date sous la forme jj/mm/aaaa:");
+        
+            // Traitement de la saisi année ,split de celle ci et atribution des valeurs aux différentes sorties.
             string[] dateComp = Console.ReadLine().Split('/');
             int.TryParse(dateComp[0], out jour);
             int.TryParse(dateComp[1], out mois);
             int.TryParse(dateComp[2], out année);
             Console.WriteLine("j: {0} m: {1} a: {2}", jour, mois, année);
 
+            //Calcule et appelle des méthodes. 
+            resultat4 = année / 4;
+            valeurMois=MoisDonné(mois,année);
+            rest7 = (année + resultat4 + valeurMois + jour) % 7;
+            joursSemaine = JourSemaine(rest7);
 
+            Console.WriteLine(joursSemaine);
         }
+        /// <summary>
+        /// Permet de retrouver un jour grace à un int sous forme de switch.
+        /// </summary>
+        /// <param name="_numJour"></param>
+        /// <returns>nomJour</returns>
         static string JourSemaine(int _numJour)
         {
             string nomJour;
@@ -59,6 +74,13 @@ namespace joursMoisAnnée
             }
             return nomJour;
         }
+        /// <summary>
+        /// Permet de retrouver la valeur associer à un mois  grace à deux int sous forme de 
+        /// switch et permet de dissocier les mois dans une année bissextille.
+        /// </summary>
+        /// <param name="_mois"></param>
+        /// <param name="_année"></param>
+        /// <returns>valeurMois</returns>
         static int MoisDonné(int _mois,int _année)
         {
             int valeurMois;
